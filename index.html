@@ -9,6 +9,16 @@
    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
    <!-- AOS CSS -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+<style>
+  body {
+    background-color: #ADD8E6; /* Latar belakang seluruh halaman */
+  }
+
+  .light-blue-bg {
+    background-color: #ADD8E6 !important;
+  }
+</style>
+
  
 <!-- AOS JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
@@ -47,7 +57,9 @@
 </nav>
 
 <!-- Home Section -->
-<section id="home" class="vh-100 d-flex align-items-center bg-light text-center" data-aos="fade-in">
+<section id="home" class="vh-100 d-flex align-items-center text-center text-white" data-aos="fade-in"
+   style="background: url('pantai.jpg') no-repeat center center/cover;">
+
    <div class="container">
        <!-- Foto Profil -->
    <div class="text-center mb-4">
@@ -66,24 +78,37 @@
       <div class="row">
          <div class="col-lg-6 mx-auto text-center">
             <h2>About Me</h2>
-            <p>I am a dedicated developer with a focus on creating clean, functional, and responsive websites. I have
-               a passion for coding and a love for learning new technologies to improve my skills.</p>
+            <p>Hi! My name is <strong>Salsabilla Singgrit Khoirunisa</strong>. I’m 18 years old and currently studying at <strong>SMKN 1 Nganjuk</strong>, majoring in <strong>Game Development</strong>. I have a strong interest in technology and enjoy learning new things. In my free time, I practice <strong>Pencak Silat</strong>, which is one of my favorite hobbies. 
+            I'm always excited to explore new experiences and grow both personally and professionally.</p>
          </div>
       </div>
 
- 
-      <div class="row mt-4">
-         <!-- Resume -->
-         <div class="col-lg-6">
-            <h3>Resume</h3>
-            <p><strong>Web Developer</strong> - XYZ Company (2025 - Present)</p>
-            <p>Working on various front-end and back-end projects, developing user-friendly interfaces, and enhancing
-               website performance.</p>
-            <p><strong>Graphic Designer</strong> - ABC Agency (2023 - 2025)</p>
-            <p>Designed branding materials, marketing visuals, and UI elements for web and mobile applications.</p>
-         </div>
+      <!-- Tambahan Biodata Menarik -->
+<div class="row mt-4">
+   <div class="col-lg-12">
+      <h3>Biodata</h3>
+      <ul class="list-group list-group-flush">
+         <li class="list-group-item"><strong>Nama Lengkap:</strong> Salsabilla Singgrit Khoirunisa</li>
+         <li class="list-group-item"><strong>Tempat, Tanggal Lahir:</strong> Kediri, 3 Oktober 2007</li>
+         <li class="list-group-item"><strong>Jenis Kelamin:</strong> Perempuan</li>
+         <li class="list-group-item"><strong>Agama:</strong> Islam</li>
+         <li class="list-group-item"><strong>Alamat:</strong> Jl.Majapahit No.45, Mungkung Rejoso, Nganjuk, Jawa Timur</li>
+         <li class="list-group-item"><strong>Hobi:</strong> Pencak Silat, Desain Grafis, Coding</li>
+         <li class="list-group-item"><strong>Cita-cita:</strong> Kowad (Korps Wanita Angkatan Darat)</li>
+      </ul>
+   </div>
+</div>
 
- 
+<!-- Resume -->
+<div class="row mt-4">
+   <div class="col-lg-6">
+      <h3>Resume</h3>
+      <p><strong>Web Developer</strong> - (2025 - Present)</p>
+      <p>Focus on developing and creating websites using HTML, CSS, and JavaScript.</p>
+      <p><strong>Graphic Designer</strong> - (2023 - 2025)</p>
+      <p>Studying graphic design since entering SMKN 1 Nganjuk from 2023 until now.</p>
+   </div>
+
          <!-- Skills -->
          <div class="col-lg-6">
             <h3>Skills</h3>
@@ -99,6 +124,10 @@
             <div class="progress mb-3">
                <div class="progress-bar bg-warning" style="width: 50%;">50%</div>
             </div>
+            <p>Game Development (Unity)</p>
+            <div class="progress mb-3">
+               <div class="progress-bar bg-info" style="width: 50%;">50%</div>
+            </div>
             <p>Graphic Design</p>
             <div class="progress mb-3">
                <div class="progress-bar bg-danger" style="width: 50%;">50%</div>
@@ -107,6 +136,7 @@
       </div>
    </div>
 </section>
+
 
 <!-- Portfolio Section -->
 <section id="portfolio" class="py-5 bg-light">
@@ -153,17 +183,31 @@
 
 <!-- Contact Section -->
 <section id="contact" class="py-5 bg-white">
-    <div class="container" data-aos="fade-up">
-      <h2 class="text-center">Contact Me</h2>
-      <div class="row">
-         <div class="col-lg-6 mx-auto text-center">
-            <p>Email: <a href="mailto:your-email@example.com">salsabillasinggritk0323@gmail.com</a></p>
-            <p>Phone: +62 895 1205 8917</p>
-            <p>Address: Jl.DR.Soetomo, Kauman, Kec.Nganjuk, Kabupaten.Nganjuk, Jawa Timur 64415</p>
-         </div>
+  <div class="container" data-aos="fade-up">
+    <h2 class="text-center">Contact Me</h2>
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <p><i class="bi bi-envelope-fill me-2"></i>Email: 
+          <a href="mailto:salsabillasinggritk0323@gmail.com">salsabillasinggritk0323@gmail.com</a></p>
+
+        <p><i class="bi bi-whatsapp me-2 text-success"></i>WhatsApp: 
+          <a href="https://wa.me/6289512058917" target="_blank">+62 895 1205 8917</a></p>
+
+        <p><i class="bi bi-geo-alt-fill me-2 text-danger"></i>Address: 
+          <a href="https://www.google.com/maps?q=Jl.+DR.+Soetomo,+Kauman,+Nganjuk,+Jawa+Timur+64415" target="_blank">
+          Jl. DR. Soetomo, Kauman, Kec. Nganjuk, Kabupaten Nganjuk, Jawa Timur 64415</a></p>
+
+        <p><i class="bi bi-instagram me-2 text-danger"></i>Instagram: 
+          <a href="https://www.instagram.com/ixcn_sa" target="_blank">@ixcn_sa</a></p>
+
+        <p><i class="bi bi-tiktok me-2"></i>TikTok: 
+          <a href="https://www.tiktok.com/@slsbllas.k" target="_blank">@slsbllas.k</a></p>
       </div>
-   </div>
+    </div>
+  </div>
 </section>
+
+
 
 <!-- Footer -->
 <footer class="text-center py-4 bg-light">
@@ -176,3 +220,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
+
